@@ -1,0 +1,103 @@
+
+ .container{
+     color:black;
+ }
+ 
+ body{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+ 
+   color:brown;
+  
+ }
+ .backface{
+   margin-left:-150px;
+   border-radius:20px;
+ }
+ .random-cards{
+ 
+   display:flex-block;
+   flex-direction:row;
+   align-items:center;
+   justify-content:center;
+ 
+ }
+ .card1{
+   transform: rotate(-40deg);
+   border-radius:10px;
+   
+ }
+ 
+ .card2{
+   transform:rotate(40deg);
+   border-radius:10px;
+  }
+  .card3{
+    border-radius:10px;
+  }
+ .result{
+   display:inline;
+ 
+ }
+ 
+ 
+ @media(min-width:330px){
+   .random-cards>img{width:140px;
+   
+   }
+ }
+ @media(max-width:480px){
+   .random-cards>img{width:100px;}
+   .random-cards{margin-left :0px;}
+ }
+ .show{
+   color:black;
+   background-color:rgb(196,172,134);
+   font-weight:bold;
+   margin-bottom:10px;
+   text-align:center;
+ }
+ .score{
+   float:right;
+ }
+ .popup-container {
+ 
+   position:relative;
+   margin-top:-140px;
+   /* display: flex; */
+   align-items: center;
+   justify-content: center;
+ }
+ .popup {
+   background: rgb(196,172,134);
+   border:5px groove rgb(75,66,59);
+   border-radius: 10px;
+ 
+   box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   text-align: center;
+   color:rgb(75,66,59);
+ }
+ .popup button {
+   background-color: rgb(75,66,59);
+   color:rgb(196,172,134);
+   cursor: pointer;
+   margin-top: 20px;
+   padding: 12px 20px;
+   font-size: 16px;
+ }
+ .popup>h2{
+   padding:5px;
+   background:rgb(75,66,59);
+   color:rgb(196,172,134);
+   
+ }
+ 
+ .popup button:active {
+   transform: scale(0.98);
+ }
+ 
+ .popup button:focus {
+   outline: 0;
+ }

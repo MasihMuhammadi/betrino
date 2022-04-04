@@ -1,0 +1,25 @@
+{
+  "name": "toturials",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "bootstrap": "^5.1.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.3.1",
+    "tailwind": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.6.0"
+  }
+}
